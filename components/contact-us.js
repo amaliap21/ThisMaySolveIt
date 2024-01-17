@@ -41,7 +41,7 @@ const ContactUs = React.forwardRef((props, ref) => {
                 Contact Us
               </h1>
               <p className="text-slate-500 italic flex break-normal font-pt_sans text-[18px] lg:text-lg xl:text-xl font-[400] leading-[140%]">
-                Send us <br /> a message
+                Send us a message
               </p>
             </div>
             <FormField
@@ -96,7 +96,7 @@ const ContactUs = React.forwardRef((props, ref) => {
                 Social Media
               </h1>
               <p className="text-slate-500 italic flex break-normal font-pt_sans text-[18px] lg:text-lg xl:text-xl font-[400]  leading-[140%]">
-                Reach us <br /> on here
+                Reach us on here
               </p>
             </div>
 
