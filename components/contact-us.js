@@ -40,7 +40,7 @@ const ContactUs = React.forwardRef((props, ref) => {
               <h1 className="text-black font-pt_sans lg:leading-[50px] text-[18px] lg:text-2xl xl:text-3xl font-bold ">
                 Contact Us
               </h1>
-              <p className="text-slate-500 italic flex break-normal font-pt_sans text-[18px] lg:text-lg xl:text-xl font-[400] leading-[140%]">
+              <p className="text-slate-500 italic flex break-normal font-pt_sans text-[14px] lg:text-lg xl:text-xl font-[400] leading-[140%]">
                 Send us a message
               </p>
             </div>
@@ -95,7 +95,7 @@ const ContactUs = React.forwardRef((props, ref) => {
               <h1 className="text-black font-pt_sans lg:leading-[50px] text-[18px] lg:text-2xl xl:text-3xl font-bold ">
                 Social Media
               </h1>
-              <p className="text-slate-500 italic flex break-normal font-pt_sans text-[18px] lg:text-lg xl:text-xl font-[400]  leading-[140%]">
+              <p className="text-slate-500 italic flex break-normal font-pt_sans text-[14px] lg:text-lg xl:text-xl font-[400]  leading-[140%]">
                 Reach us on here
               </p>
             </div>
