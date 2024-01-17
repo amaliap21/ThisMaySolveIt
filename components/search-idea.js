@@ -30,13 +30,13 @@ const SearchIdeas = () => {
     return (
         // sm:px-20 md:px-24 lg:pb-24 2xl:pb-40
         <Form {...form}>
-            <form className="space-y-8 flex flex-col justify-center items-center w-full m-14">
+            <form className="space-y-8 flex flex-col justify-center items-center w-full mb-10 lg:m-14">
                 <h1 className="text-black text-center font-pt_sans lg:leading-[50px] text-[30px] lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold">
                     Find or Create Ideas
                 </h1>
 
                 {/* Search Input */}
-                <div className="flex flex-grow flex-row justify-center items-center gap-3 p-3 bg-[#D4D4D5] rounded-full lg:text-4xl w-3/4 lg:w-7/12 2xl:w-5/6">
+                <div className="flex flex-grow flex-row justify-center items-center gap-3 p-3 bg-[#D4D4D5] rounded-full lg:text-4xl md:w-3/4 lg:w-7/12 2xl:w-5/6">
                     <FormField
                         control={form.control}
                         name="Search"
@@ -61,7 +61,7 @@ const SearchIdeas = () => {
                 </div>
 
                 {/* Categories */}
-                <div className="flex flex-row justify-around items-center lg:gap-2 xl:gap-16 2xl:gap-28">
+                <div className="grid grid-cols-2 gap-x-10 gap-y-5 lg:flex lg:flex-row justify-around items-center lg:gap-2 xl:gap-16 2xl:gap-28">
                     <Button
                         type="submit"
                         variant="outline"

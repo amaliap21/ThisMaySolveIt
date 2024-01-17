@@ -11,13 +11,13 @@ const Hero = () => {
     ]
 
     return (
-        <div className="flex flex-col gap-5 xl:px-20">
+        <div className="flex flex-col gap-10 lg:gap-5 xl:px-20">
             <div className="w-full flex flex-col-reverse items-center justify-center lg:items-start lg:flex-row lg:justify-start lg:gap-[225px] xl:gap-[150px] 2xl:gap-[275px]">
-                <div className="flex-1 flex flex-col justify-start my-auto">
+                <div className="flex-1 flex flex-col justify-start items-center lg:items-start my-auto">
                     <h1 className="text-black font-pt_sans lg:leading-[70px] text-[30px] lg:text-4xl xl:text-5xl 2xl:text-6xl font-bold ">
                         Solve It Now
                     </h1>
-                    <p className="text-slate-500 italic mt-[15px] flex break-normal text-left font-pt_sans text-[16px] lg:text-2xl xl:text-3xl font-[400] leading-[140%]">
+                    <p className="text-slate-500 text-center lg:text-left italic mt-[15px] break-normal font-pt_sans text-[16px] lg:text-2xl xl:text-3xl font-[400] leading-[140%]">
                         There are thousands problems in your country, your idea may solve one of them!
                     </p>
                 </div>

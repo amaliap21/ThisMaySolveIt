@@ -21,7 +21,7 @@ const IconPage = ({
   ]
 
   return (
-    <div className="flex relative min-h-screen flex-col overflow-hidden items-start justify-start gap-10 p-14 sm:px-20 md:px-24 lg:pb-24 2xl:pb-40 lg:px-40 2xl:px-52 bg-neutral-50 z-[0]"
+    <div className="flex relative min-h-screen flex-col overflow-hidden items-start justify-start gap-10 p-14 px-10 lg:pb-24 2xl:pb-40 lg:px-40 2xl:px-52 bg-neutral-50 z-[0]"
     >
       <a href="/Ideas">
         <Image
@@ -40,31 +40,31 @@ const IconPage = ({
         alt={imageAlt}
         width={width}
         height={height}
-        className={`w-[400px] h-[400px] self-center lg:w-[${width}px] lg:h-[${height}px]`}
+        className={`w-[300px] h-[300px] self-center lg:w-[${width}px] lg:h-[${height}px]`}
       />
 
       {/* PROBLEM */}
       <div className="flex flex-col gap-2">
-        <h2 className="text-black font-pt_sans text-[30px] lg:text-2xl font-bold">Problem</h2>
-        <p className="text-black font-pt_sans text-[30px] lg:text-2xl font-normal">{problem}</p>
+        <h2 className="text-black font-pt_sans text-[20px] lg:text-2xl font-bold">Problem</h2>
+        <p className="text-black font-pt_sans text-[20px] lg:text-2xl font-normal">{problem}</p>
       </div>
 
       {/* CATEGORY */}
       <div className="flex flex-col gap-2">
-        <h2 className="text-black font-pt_sans text-[30px] lg:text-2xl font-bold">Category</h2>
-        <p className="text-black font-pt_sans text-[30px] lg:text-2xl font-normal">{category}</p>
+        <h2 className="text-black font-pt_sans text-[20px] lg:text-2xl font-bold">Category</h2>
+        <p className="text-black font-pt_sans text-[20px] lg:text-2xl font-normal">{category}</p>
       </div>
 
       {/* IDEA DESCRIPTION */}
       <div className="flex flex-col gap-2">
-        <h2 className="text-black font-pt_sans text-[30px] lg:text-2xl font-bold">Idea description</h2>
-        <p className="text-black font-pt_sans text-[30px] lg:text-2xl font-normal">{ideaDescription}</p>
+        <h2 className="text-black font-pt_sans text-[20px] lg:text-2xl font-bold">Idea description</h2>
+        <p className="text-black font-pt_sans text-[20px] lg:text-2xl font-normal">{ideaDescription}</p>
       </div>
 
       {/* PROPOSER */}
-      <div className="flex flex-col gap-2 mb-24">
-        <h2 className="text-black font-pt_sans text-[30px] lg:text-2xl font-bold">Proposer</h2>
-        <p className="text-black font-pt_sans text-[30px] lg:text-2xl font-normal underline">{proposer}</p>
+      <div className="flex flex-col gap-2 mb-12 lg:mb-24">
+        <h2 className="text-black font-pt_sans text-[20px] lg:text-2xl font-bold">Proposer</h2>
+        <p className="text-black font-pt_sans text-[20px] lg:text-2xl font-normal underline">{proposer}</p>
       </div>
 
       {ideas.map((idea, index) => (
