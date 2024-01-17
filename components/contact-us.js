@@ -33,9 +33,9 @@ const ContactUs = React.forwardRef((props, ref) => {
   return (
     <Form {...form}>
       <form className="space-y-4 bg-[#D4D4D5] pt-[50px] pb-[120px] lg:py-20 xl:py-28">
-        <div className="flex flex-row justify-between items-stretch px-5 lg:px-32 xl:px-52 gap-10 lg:gap-28 xl:gap-40">
+        <div className="flex flex-row justify-between items-stretch px-10 lg:px-32 xl:px-52 gap-10 lg:gap-28 xl:gap-40">
           {/* Contact Us */}
-          <div className="flex flex-col justify-start px-25 gap-4 lg:w-[500px]">
+          <div className="flex flex-col justify-start px-25 gap-4 w-[150px] lg:w-[500px]">
             <div>
               <h1 className="text-black font-pt_sans lg:leading-[50px] text-[18px] lg:text-2xl xl:text-3xl font-bold ">
                 Contact Us
