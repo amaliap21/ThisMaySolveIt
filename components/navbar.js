@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import HamburgerIcon from "./icons/hamburger-icon";
 import CrossIcon from "./icons/cross-icon";
@@ -8,6 +8,7 @@ import CrossIcon from "./icons/cross-icon";
 const Navbar = ({ expandNavbar, setExpandNavbar, contactRef }) => {
   const pathname = usePathname();
   const blackBgRef = useRef(null);
+  const [scroll, setScroll] = useState(false);
 
   // Define the path data as an array of objects
   const path = [
@@ -45,11 +46,15 @@ const Navbar = ({ expandNavbar, setExpandNavbar, contactRef }) => {
   const handleContactClick = () => {
     setExpandNavbar(false);
 
-    // Scroll to the bottom of the page
+    // Toggle between scrolling to top and bottom of the page
+    const scrollToPosition = scroll ? 0 : document.body.scrollHeight;
+
     window.scrollTo({
-      top: document.body.scrollHeight,
+      top: scrollToPosition,
       behavior: 'smooth',
     });
+
+    setScroll(!scroll);
   };
 
   return (
@@ -105,11 +110,12 @@ const Navbar = ({ expandNavbar, setExpandNavbar, contactRef }) => {
         })}
 
         {/* "Contact" menu item */}
+        {/* const scrollToPosition = scroll ? 0 : document.body.scrollHeight; */}
         <li
           onClick={handleContactClick}
           className={`text-white hover:text-custom-yellow cursor-pointer`}
         >
-          Contact
+          {scroll ? 'Back' : 'Contact'}
         </li>
       </ul>
 
