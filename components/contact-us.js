@@ -32,10 +32,10 @@ const ContactUs = React.forwardRef((props, ref) => {
 
   return (
     <Form {...form}>
-      <form className="space-y-4 bg-[#D4D4D5] pt-[50px] pb-[120px] lg:py-20 xl:py-28">
-        <div className="flex flex-row justify-between items-stretch px-10 lg:px-32 xl:px-52 gap-10 lg:gap-28 xl:gap-40">
+      <form className="space-y-4 bg-[#D4D4D5] pt-[50px] pb-[40px] sm:pb-[60px] lg:pb-[120px] lg:py-20 xl:py-28">
+        <div className="flex flex-row justify-between sm:justify-center items-stretch px-10 lg:px-32 xl:px-52 gap-6 sm:gap-28 xl:gap-40">
           {/* Contact Us */}
-          <div className="flex flex-col justify-start px-25 gap-4 w-[150px] lg:w-[500px]">
+          <div className="flex flex-col justify-start px-25 gap-4 w-[200px] sm:w-[225px] lg:w-[500px]">
             <div>
               <h1 className="text-black font-pt_sans lg:leading-[50px] text-[18px] lg:text-2xl xl:text-3xl font-bold ">
                 Contact Us
@@ -103,24 +103,24 @@ const ContactUs = React.forwardRef((props, ref) => {
             <div className="flex flex-wrap gap-2 lg:gap-5">
               <Image
                 src="/git.png"
-                alt="background atas"
+                alt="github"
                 width={100}
                 height={100}
-                className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] xl:w-[80px] xl:h-[80px] z-[2] object-center object-contain"
+                className="w-[30px] h-[30px] sm:w-[35px] sm:h-[35px] lg:w-[50px] lg:h-[50px] xl:w-[80px] xl:h-[80px] z-[2] object-center object-contain"
               ></Image>
               <Image
                 src="/instagram.png"
-                alt="background atas"
+                alt="instagram"
                 width={100}
                 height={100}
-                className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] xl:w-[80px] xl:h-[80px] z-[2] object-center object-contain"
+                className="w-[30px] h-[30px] sm:w-[35px] sm:h-[35px] lg:w-[50px] lg:h-[50px] xl:w-[80px] xl:h-[80px] z-[2] object-center object-contain"
               ></Image>
               <Image
                 src="/twitter-1.png"
-                alt="background atas"
+                alt="twitter"
                 width={100}
                 height={100}
-                className="w-[35px] h-[35px] lg:w-[50px] lg:h-[50px] xl:w-[80px] xl:h-[80px] z-[2] object-center object-contain"
+                className="w-[30px] h-[30px] sm:w-[35px] sm:h-[35px] lg:w-[50px] lg:h-[50px] xl:w-[80px] xl:h-[80px] z-[2] object-center object-contain"
               ></Image>
             </div>
             <div className="flex">

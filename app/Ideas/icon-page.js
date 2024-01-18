@@ -45,26 +45,26 @@ const IconPage = ({
 
       {/* PROBLEM */}
       <div className="flex flex-col gap-2">
-        <h2 className="text-black font-pt_sans text-[20px] lg:text-2xl font-bold">Problem</h2>
-        <p className="text-black font-pt_sans text-[20px] lg:text-2xl font-normal">{problem}</p>
+        <h2 className="text-black font-pt_sans text-[16px] lg:text-2xl font-bold">Problem</h2>
+        <p className="text-black font-pt_sans text-[16px] lg:text-2xl font-normal">{problem}</p>
       </div>
 
       {/* CATEGORY */}
       <div className="flex flex-col gap-2">
-        <h2 className="text-black font-pt_sans text-[20px] lg:text-2xl font-bold">Category</h2>
-        <p className="text-black font-pt_sans text-[20px] lg:text-2xl font-normal">{category}</p>
+        <h2 className="text-black font-pt_sans text-[16px] lg:text-2xl font-bold">Category</h2>
+        <p className="text-black font-pt_sans text-[16px] lg:text-2xl font-normal">{category}</p>
       </div>
 
       {/* IDEA DESCRIPTION */}
       <div className="flex flex-col gap-2">
-        <h2 className="text-black font-pt_sans text-[20px] lg:text-2xl font-bold">Idea description</h2>
-        <p className="text-black font-pt_sans text-[20px] lg:text-2xl font-normal">{ideaDescription}</p>
+        <h2 className="text-black font-pt_sans text-[16px] lg:text-2xl font-bold">Idea description</h2>
+        <p className="text-black font-pt_sans text-[16px] lg:text-2xl font-normal">{ideaDescription}</p>
       </div>
 
       {/* PROPOSER */}
       <div className="flex flex-col gap-2 mb-12 lg:mb-24">
-        <h2 className="text-black font-pt_sans text-[20px] lg:text-2xl font-bold">Proposer</h2>
-        <p className="text-black font-pt_sans text-[20px] lg:text-2xl font-normal underline">{proposer}</p>
+        <h2 className="text-black font-pt_sans text-[16px] lg:text-2xl font-bold">Proposer</h2>
+        <p className="text-black font-pt_sans text-[16px] lg:text-2xl font-normal underline">{proposer}</p>
       </div>
 
       {ideas.map((idea, index) => (

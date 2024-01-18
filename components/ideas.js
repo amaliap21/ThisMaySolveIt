@@ -180,7 +180,7 @@ const IdeasCard = ({
                 </div>
             )}
 
-            <div className="flex flex-wrap items-center justify-center w-full gap-x-8 xl:gap-x-5 2xl:gap-x-24 gap-y-10 lg:gap-y-16">
+            <div className="flex flex-wrap items-center justify-center w-full gap-x-8 xl:gap-x-5 2xl:gap-x-24 gap-y-5 lg:gap-y-16">
                 {/* Mapping and rendering each event */}
                 {displayedEvents.map((event, index) => (
                     <IconCard
